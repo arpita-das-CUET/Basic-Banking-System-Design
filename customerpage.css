@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+     
+    background-image: linear-gradient(to bottom right,rgb(231, 227, 231),rgb(228, 231, 235));
+    background-repeat: no-repeat;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    margin-right: 60%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(21, 80, 6);
+    box-shadow: 5px 10px 30px rgba(247, 244, 244, 0.911);
+    z-index: 1;
+    margin-top: 0%;
+  }
+  
+  .logo img{
+    height: 100px;
+    width: 160px;
+    margin-top: 0%;
+    margin-left: 20%;
+    position: relative;
+    
+  }
+
+  .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 247, 247);
+  }
+  
+  .menu li a:hover{
+    background-color: rgb(1, 10, 12);
+    color: rgb(204, 15, 15);
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .my-info{
+    justify-content: space-around;
+    padding: 0;
+    text-align: center!important;
+    margin-bottom: 1rem;
+   
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: 400;
+    line-height: 1.2px;
+  }
+  
+  .btn{
+    font-family: 'Itim', cursive;
+    background-color: rgb(168, 31, 31);
+    color: rgba(228, 225, 224, 0.87);
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid rgb(18, 235, 11);
+    box-shadow: 0 0 20px rgba(224, 52, 9, 0.925);
+  }
+  
+  .btn:hover{
+    background-color: rgba(230, 30, 30, 0.918);
+  }
+  
+  .table{
+    border-collapse: collapse;
+      margin: 20px auto 0 auto;
+      font-size: 0.9em;
+      min-width: 400px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  
+  .table thead tr{
+    background-color: rgb(240, 9, 9);
+      color: rgb(51, 5, 75);
+      text-align: left;
+      font-weight: bold;
+  }
+  
+  .table th,
+  .table td{
+    padding: 5px 70px;
+  }
+  
+  .table tbody tr{
+    border-bottom: 1px solid rgb(153, 21, 21);
+  }
+  
+  .table tbody tr:nth-of-type(odd){
+    background-color: rgb(113, 214, 123);
+  }
+  
+  .table tr:nth-of-type(even){
+    background-color: rgb(99, 92, 98);
+  }
+  
+  tr{
+    cursor: pointer;
+  }
+  
+  .table tbody tr:hover{
+    background-color: rgba(162, 162, 170, 0.842);
+  }
